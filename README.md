@@ -108,3 +108,5 @@ This PDF has pretty much everything you'd need for commands: https://education.g
 * `git is not recognized` -> You likely have to add Git onto your environment variables and PATH. If you are on Windows, add Git to the environment variables: https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command. Make sure you have the `"\"` in both `C:\Program Files\Git\bin\` and `C:\Program Files\Git\cmd\`. This path will vary depending on where you installed Git, but it should default to this path. 
 * `fatal: not a git repository (or any of the parent directories): .git` -> You probably haven't changed directory into the newly created folder after cloning the repository. Do `cd MYREPONAMEHERE` and try again
 * After cloning the repository, you can't create a branch or anything -> Do `git status` and see what branch you are on. If you aren't on main (you might be on "master"), switch to main: `git checkout main` and try again
+
+Dylan
